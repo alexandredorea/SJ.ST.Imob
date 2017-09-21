@@ -1,0 +1,17 @@
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.deps.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.runtimeconfig.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.runtimeconfig.dev.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.csprojResolveAssemblyReference.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.AssemblyInfoInputs.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.AssemblyInfo.cs
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Debug\netcoreapp2.0\SJ.ST.Imob.WebApi.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Service.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Service.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.pdb

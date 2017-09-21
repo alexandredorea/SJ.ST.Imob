@@ -1,0 +1,11 @@
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.deps.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.csprojResolveAssemblyReference.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.AssemblyInfoInputs.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.AssemblyInfo.cs
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.pdb

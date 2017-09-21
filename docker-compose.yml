@@ -1,0 +1,63 @@
+version: '3'
+
+services:
+  sj.st.imob.webapi:
+    image: sj.st.imob.webapi
+    build:
+      context: ./SJ.ST.Imob.WebApi
+      dockerfile: Dockerfile
+    container_name: webapi
+    ports:
+      - "3000:80"
+    networks: 
+      - desenv-networks
+    depends_on: 
+      - "myredis"
+      - "rabbitmq"
+      - "sj.st.imob.consumer"
+
+  mongodb:
+    image: mongo
+    container_name: mymongo
+    ports:
+    - "27017:27017"
+    networks:
+      - desenv-networks
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports: 
+      - "8080:15672"
+      - "5672:5672"
+    container_name: myrabbitmq
+    environment:
+      - RABBITMQ_NODE_TYPE=myrabbitmq
+      - RABBITMQ_NODE_NAME=rabbit@myrabbitmq
+      - RABBITMQ_CLUSTER_NODE_NAME=rabbit@myrabbitmq
+      - RABBITMQ_ERLANG_COOKIE=s3cr3tc00ki3
+    networks:
+      - desenv-networks
+
+  sj.st.imob.consumer:
+    image: sj.st.imob.consumer
+    container_name: consumer
+    build:
+      context: ./SJ.ST.Imob.Consumer
+      dockerfile: Dockerfile
+    networks:
+      - desenv-networks
+    depends_on: 
+      - "mongodb"
+      - "rabbitmq"
+
+  myredis:
+    image: redis
+    container_name: myredis
+    ports:
+      - "6379:6379"
+    networks:
+      - desenv-networks
+
+networks:
+  desenv-networks:
+    driver: bridge

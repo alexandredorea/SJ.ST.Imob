@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  sj.st.imob.webapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development    
