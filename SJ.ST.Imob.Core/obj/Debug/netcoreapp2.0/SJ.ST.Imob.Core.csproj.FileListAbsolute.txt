@@ -6,4 +6,3 @@ C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.AssemblyInfo.cs
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
-C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.csprojResolveAssemblyReference.cache

@@ -1,17 +1,20 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "3665f8cda77b1eb1f8d283d962125191c53c34e9"
+    "signature": "a7d47f73c2ce6c5485744ad4cfb9272f33e4740c"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "SJ.ST.Imob.SetorConsumer/1.0.0": {
+      "SetorConsumer/1.0.0": {
         "dependencies": {
-          "SJ.ST.Imob.Consumer": "1.0.0"
+          "SJ.ST.Imob.Consumer": "1.0.0",
+          "SJ.ST.Imob.Core": "1.0.0",
+          "SJ.ST.Imob.Repository": "1.0.0",
+          "SimpleInjector": "4.0.11"
         },
         "runtime": {
-          "SJ.ST.Imob.SetorConsumer.dll": {}
+          "SetorConsumer.dll": {}
         }
       },
       "EasyNetQ/2.1.0": {
@@ -225,7 +228,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "SimpleInjector/4.0.8": {
+      "SimpleInjector/4.0.11": {
         "dependencies": {
           "System.ComponentModel": "4.3.0"
         },
@@ -235,7 +238,7 @@
       },
       "SimpleInjector.Extensions.ExecutionContextScoping/4.0.0": {
         "dependencies": {
-          "SimpleInjector": "4.0.8"
+          "SimpleInjector": "4.0.11"
         },
         "runtime": {
           "lib/netstandard1.3/SimpleInjector.Extensions.ExecutionContextScoping.dll": {}
@@ -1082,7 +1085,7 @@
           "EasyNetQ": "2.1.0",
           "SJ.ST.Imob.Core": "1.0.0",
           "SJ.ST.Imob.Repository": "1.0.0",
-          "SimpleInjector": "4.0.8",
+          "SimpleInjector": "4.0.11",
           "SimpleInjector.Extensions.ExecutionContextScoping": "4.0.0",
           "mongocsharpdriver": "2.4.4"
         },
@@ -1111,7 +1114,7 @@
     }
   },
   "libraries": {
-    "SJ.ST.Imob.SetorConsumer/1.0.0": {
+    "SetorConsumer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1242,12 +1245,12 @@
       "path": "runtime.native.system.security.cryptography/4.0.0",
       "hashPath": "runtime.native.system.security.cryptography.4.0.0.nupkg.sha512"
     },
-    "SimpleInjector/4.0.8": {
+    "SimpleInjector/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P7E2z+7lhwoZRNQyi77Z/skV6Nwir3k92JnPgQElCOJ5/3xzsDx6JFtmhCYTR7CDhKr9RdTSXBEai/NXZsv9/Q==",
-      "path": "simpleinjector/4.0.8",
-      "hashPath": "simpleinjector.4.0.8.nupkg.sha512"
+      "sha512": "sha512-67GdbC42ogieiMPokbX01aY5oiYiXlY0XJG6bqX1iu+xpHtXi7prGrUbAgsN0twZSiNbG+YfET8C9qtE2DU/Fw==",
+      "path": "simpleinjector/4.0.11",
+      "hashPath": "simpleinjector.4.0.11.nupkg.sha512"
     },
     "SimpleInjector.Extensions.ExecutionContextScoping/4.0.0": {
       "type": "package",

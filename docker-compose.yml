@@ -14,7 +14,7 @@ services:
     depends_on: 
       - "myredis"
       - "rabbitmq"
-      - "sj.st.imob.consumer"
+      - "setorconsumer"
 
   mongodb:
     image: mongo
@@ -38,18 +38,6 @@ services:
     networks:
       - desenv-networks
 
-  sj.st.imob.setorconsumer:
-    image: sj.st.imob.setorconsumer
-    container_name: setorconsumer
-    build:
-      context: ./SJ.ST.Imob.Consumer
-      dockerfile: Dockerfile
-    networks:
-      - desenv-networks
-    depends_on: 
-      - "mongodb"
-      - "rabbitmq"
-
   myredis:
     image: redis
     container_name: myredis
@@ -58,6 +46,18 @@ services:
     networks:
       - desenv-networks
 
+  setorconsumer:
+    image: setorconsumer
+    build:
+      context: ./SetorConsumer
+      dockerfile: Dockerfile
+    networks:
+      - desenv-networks
+    depends_on: 
+      - "mongodb"
+      - "rabbitmq"
+
 networks:
   desenv-networks:
     driver: bridge
+

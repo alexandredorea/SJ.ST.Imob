@@ -15,7 +15,7 @@ namespace SJ.ST.Imob.WebApi.Controllers
     public class SetorController : Controller
     {
         private readonly IServiceBus<Setor> serviceBus;
-        
+
 
         public SetorController(IServiceBus<Setor> serviceBus, IRedisDataAgent redisDataAgent)
         {
@@ -27,7 +27,11 @@ namespace SJ.ST.Imob.WebApi.Controllers
         [HttpGet]
         public IEnumerable<Setor> Get()
         {
-            return serviceBus.GetData(this.Request.Query.ToDictionary(q => q.Key, q => q.Value.ToString())); // new Setor[] { new Setor() };
+            var query = this.Request.Query.ToDictionary(q => q.Key, q => q.Value.ToString());
+            if (query.Count > 0)
+                serviceBus.GetData(query);
+            else
+                return serviceBus.GetData(); // new Setor[] { new Setor() };
         }
 
         // GET api/values/k23i34u3yh4p51e

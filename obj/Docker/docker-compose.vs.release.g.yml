@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  sj.st.imob.consumer:
+  setorconsumer:
     build:
       args:
         source: obj/Docker/publish/
@@ -10,7 +10,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  SJ.ST.Imob.Consumer.dll"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_setorconsumer$ SetorConsumer.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
 
@@ -23,6 +23,6 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  SJ.ST.Imob.WebApi.dll"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_sj.st.imob.webapi$ SJ.ST.Imob.WebApi.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""

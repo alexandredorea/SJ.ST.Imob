@@ -47,7 +47,7 @@ namespace SJ.ST.Imob.Service
                 return JsonConvert.DeserializeObject<IList<T>>(lista);
             else
                 return GetDataFromDB(query);
-        }        
+        }
 
         public T GetData(string id)
         {
