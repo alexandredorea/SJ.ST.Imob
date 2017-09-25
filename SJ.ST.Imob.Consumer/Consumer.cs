@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SJ.ST.Imob.Consumer
 {
@@ -44,15 +45,16 @@ namespace SJ.ST.Imob.Consumer
             });
 
         }
-        
+
         public static void Get<T>(IRepository<T> repository) where T : class, IEntity
         {
             using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
             {
-                bus.Respond<string, T>(x =>
+                bus.RespondAsync<string, T>(x =>
+                Task.Factory.StartNew(() =>
                 {
                     return repository.Get(x);
-                }, x =>
+                }), x =>
                 {
                     x.WithQueueName("Get-" + typeof(T).Name);
                 });
@@ -63,10 +65,11 @@ namespace SJ.ST.Imob.Consumer
         {
             using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
             {
-                bus.Respond<string, IList<T>>(x =>
+                bus.RespondAsync<string, List<T>>(x =>
+                Task.Factory.StartNew(() =>
                 {
-                    return repository.FindAll().ToList();
-                }, x =>
+                    return repository.FindAll().ToList<T>();
+                }), x =>
                 {
                     x.WithQueueName("GetList-" + typeof(T).Name);
                 });
