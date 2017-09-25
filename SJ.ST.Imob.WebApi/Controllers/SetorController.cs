@@ -29,9 +29,10 @@ namespace SJ.ST.Imob.WebApi.Controllers
         {
             var query = this.Request.Query.ToDictionary(q => q.Key, q => q.Value.ToString());
             if (query.Count > 0)
-                serviceBus.GetData(query);
+                return serviceBus.GetData(query);
             else
                 return serviceBus.GetData(); // new Setor[] { new Setor() };
+            
         }
 
         // GET api/values/k23i34u3yh4p51e
