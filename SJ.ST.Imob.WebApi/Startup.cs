@@ -65,15 +65,7 @@ namespace SJ.ST.Imob.WebApi
             container.RegisterMvcControllers(app);
             //container.RegisterMvcViewComponents(app);
 
-            var types = container.GetTypesToRegister(typeof(IRepository<>),
-        new[] { typeof(Repository<>).Assembly });
-
-            container.Register(typeof(IDatabase<>), typeof(Database<>));
-            container.Register(typeof(IRepository<>), typeof(Repository<>));
             //container.Register<IEntity, Entity>();
-
-            foreach (Type type in types)
-                container.Register(type);
 
             container.RegisterSingleton(typeof(IServiceBus<>), typeof(ServiceBus<>));
             container.RegisterSingleton(typeof(IRedisDataAgent), typeof(RedisDataAgent));

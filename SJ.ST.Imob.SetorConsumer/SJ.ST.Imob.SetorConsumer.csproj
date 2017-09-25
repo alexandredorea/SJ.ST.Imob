@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EasyNetQ" Version="2.1.0" />
-    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
+    <ProjectReference Include="..\SJ.ST.Imob\SJ.ST.Imob.Consumer\SJ.ST.Imob.Consumer.csproj" />
   </ItemGroup>
 
 </Project>

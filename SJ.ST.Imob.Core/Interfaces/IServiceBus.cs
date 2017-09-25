@@ -9,11 +9,17 @@ namespace SJ.ST.Imob.Core
 
         IEnumerable<T> GetData();
 
-        IServiceBus<T> AddRedisDataAgent(IRedisDataAgent redisDataAgent);
-        IServiceBus<T> AddRepository(IRepository<T> repository);
+        IEnumerable<T> GetData(IDictionary<string, string> query);
+
         T GetData(string id);
+        
+        IServiceBus<T> AddRedisDataAgent(IRedisDataAgent redisDataAgent);
+        
         void PostData(T value);
+
         void PutData(string id, T value);
+
         void DeleteData(string id);
+        
     }
 }

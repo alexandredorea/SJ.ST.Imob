@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SJ.ST.Imob.Core;
@@ -16,18 +17,17 @@ namespace SJ.ST.Imob.WebApi.Controllers
         private readonly IServiceBus<Setor> serviceBus;
         
 
-        public SetorController(IServiceBus<Setor> serviceBus, IRedisDataAgent redisDataAgent, IRepository<Setor> repository)
+        public SetorController(IServiceBus<Setor> serviceBus, IRedisDataAgent redisDataAgent)
         {
             this.serviceBus = serviceBus;
-            this.serviceBus.AddRedisDataAgent(redisDataAgent)
-                           .AddRepository(repository);
+            this.serviceBus.AddRedisDataAgent(redisDataAgent);
         }
 
         // GET: api/values
         [HttpGet]
         public IEnumerable<Setor> Get()
         {
-            return serviceBus.GetData(); // new Setor[] { new Setor() };
+            return serviceBus.GetData(this.Request.Query.ToDictionary(q => q.Key, q => q.Value.ToString())); // new Setor[] { new Setor() };
         }
 
         // GET api/values/k23i34u3yh4p51e

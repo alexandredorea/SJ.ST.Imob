@@ -16,21 +16,13 @@ namespace SJ.ST.Imob.Service
         private readonly string RABBIT_HOST = "host=rabbitmq";
 
         private IRedisDataAgent redisDataAgent;
-        private IRepository<T> repository;
         
-
         public IServiceBus<T> AddRedisDataAgent(IRedisDataAgent redisDataAgent)
         {
             this.redisDataAgent = redisDataAgent;
             return this;
         }
-
-        public IServiceBus<T> AddRepository(IRepository<T> repository)
-        {
-            this.repository = repository;
-            return this;
-        }
-
+        
         public IEnumerable<T> GetData(IRedisDataAgent redisDataAgent)
         {
             this.redisDataAgent = redisDataAgent;
@@ -44,8 +36,18 @@ namespace SJ.ST.Imob.Service
             if (!string.IsNullOrEmpty(lista))
                 return JsonConvert.DeserializeObject<IList<T>>(lista);
             else
-                return GetDataFromRepository();
+                return GetDataFromDB();
         }
+
+        public IEnumerable<T> GetData(IDictionary<string, string> query)
+        {
+            var lista = redisDataAgent.GetStringValue(query.ToString() + typeof(T).Name);
+
+            if (!string.IsNullOrEmpty(lista))
+                return JsonConvert.DeserializeObject<IList<T>>(lista);
+            else
+                return GetDataFromDB(query);
+        }        
 
         public T GetData(string id)
         {
@@ -54,12 +56,20 @@ namespace SJ.ST.Imob.Service
             if (!string.IsNullOrEmpty(objeto))
                 return JsonConvert.DeserializeObject<T>(objeto);
             else
-                return GetDataFromRepository(id);
+                return GetDataFromDB(id);
         }
 
-        private T GetDataFromRepository(string id)
+        private T GetDataFromDB(string id)
         {
-            T objeto = repository.Get(id);
+            T objeto = null;
+
+            using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
+            {
+                objeto = bus.Request<string, T>(id, x =>
+                {
+                    x.WithQueueName("Get-" + typeof(T).Name);
+                });
+            }
 
             redisDataAgent.DeleteStringValue(id);
             redisDataAgent.SetStringValue(id, JsonConvert.SerializeObject(objeto));
@@ -67,20 +77,46 @@ namespace SJ.ST.Imob.Service
             return objeto;
         }
 
-        public IEnumerable<T> GetDataFromRepository()
+        private IList<T> GetDataFromDB()
         {
-            IEnumerable<T> lista = repository.FindAll();
+            IList<T> lista = null;
+
+            using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
+            {
+                lista = bus.Request<string, IList<T>>("Lista", x =>
+                {
+                    x.WithQueueName("GetList-" + typeof(T).Name);
+                });
+            }
 
             redisDataAgent.DeleteStringValue("Lista" + typeof(T).Name);
-            redisDataAgent.SetStringValue("Lista" + typeof(T).Name, JsonConvert.SerializeObject(lista.ToArray()));
+            redisDataAgent.SetStringValue("Lista" + typeof(T).Name, JsonConvert.SerializeObject(lista));
 
             return lista;
+        }
+
+        private IList<T> GetDataFromDB(IDictionary<string, string> query)
+        {
+            IList<T> objeto = null;
+
+            using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
+            {
+                objeto = bus.Request<IDictionary<string, string>, IList<T>>(query, x =>
+                {
+                    x.WithQueueName("GetList-" + typeof(T).Name);
+                });
+            }
+
+            redisDataAgent.DeleteStringValue(query.ToString() + typeof(T).Name);
+            redisDataAgent.SetStringValue(query.ToString() + typeof(T).Name, JsonConvert.SerializeObject(objeto));
+
+            return objeto;
         }
 
         public void PostData(T value)
         {
             var Advancedbus = RabbitHutch.CreateBus(RABBIT_HOST).Advanced;
-            var queue = Advancedbus.QueueDeclare("Post");
+            var queue = Advancedbus.QueueDeclare("Post-" + typeof(T).Name);
 
             if (Advancedbus.IsConnected)
                 Advancedbus.Publish(Exchange.GetDefault(), queue.Name, true, new Message<T>(value));
@@ -93,21 +129,20 @@ namespace SJ.ST.Imob.Service
         public void PutData(string id, T body)
         {
             var Advancedbus = RabbitHutch.CreateBus(RABBIT_HOST).Advanced;
-            var queue = Advancedbus.QueueDeclare("Put");
+            var queue = Advancedbus.QueueDeclare("Post-" + typeof(T).Name);
 
-            IMessage<T> message = new Message<T>(body, new MessageProperties() { CorrelationId = id });
-            
             if (Advancedbus.IsConnected)
-                Advancedbus.Publish(Exchange.GetDefault(), queue.Name, true, message);
+                Advancedbus.Publish(Exchange.GetDefault(), queue.Name, true, new Message<T>(body));
             else
                 throw new Exception("Erro na conexão");
 
             redisDataAgent.DeleteStringValue("Lista" + typeof(T).Name);
             redisDataAgent.DeleteStringValue(id);
+
         }
 
-        public void DeleteData(string id) {
-
+        public void DeleteData(string id)
+        {
             IMessage<string> message = new Message<string>(id);
 
             var Advancedbus = RabbitHutch.CreateBus(RABBIT_HOST).Advanced;
@@ -121,6 +156,6 @@ namespace SJ.ST.Imob.Service
             redisDataAgent.DeleteStringValue(id);
             redisDataAgent.DeleteStringValue("Lista" + typeof(T).Name);
         }
-       
+
     }
 }

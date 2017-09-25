@@ -1,0 +1,17 @@
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.deps.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.runtimeconfig.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.runtimeconfig.dev.json
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.pdb
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.csprojResolveAssemblyReference.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.AssemblyInfoInputs.cache
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.AssemblyInfo.cs
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.dll
+C:\Projetos\Estudos\Stone\SJ.ST.Imob.SetorConsumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.SetorConsumer.pdb

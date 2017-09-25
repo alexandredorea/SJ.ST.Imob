@@ -38,9 +38,9 @@ services:
     networks:
       - desenv-networks
 
-  sj.st.imob.consumer:
-    image: sj.st.imob.consumer
-    container_name: consumer
+  sj.st.imob.setorconsumer:
+    image: sj.st.imob.setorconsumer
+    container_name: setorconsumer
     build:
       context: ./SJ.ST.Imob.Consumer
       dockerfile: Dockerfile

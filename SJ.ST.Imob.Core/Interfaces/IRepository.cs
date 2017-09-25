@@ -127,9 +127,17 @@ namespace SJ.ST.Imob.Core
 
         #endregion Update
 
+        #region Replace
+
+        bool Replace(T entity);
+
+        void Replace(IEnumerable<T> entities);
+
+        #endregion Replace
+
         #endregion CRUD
 
-        
+
 
     }
 }

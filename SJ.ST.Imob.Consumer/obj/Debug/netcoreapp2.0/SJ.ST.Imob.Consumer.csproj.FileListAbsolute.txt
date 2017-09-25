@@ -1,6 +1,4 @@
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.deps.json
-C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.runtimeconfig.json
-C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.runtimeconfig.dev.json
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.dll
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb

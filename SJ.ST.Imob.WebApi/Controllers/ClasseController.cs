@@ -14,11 +14,10 @@ namespace SJ.ST.Imob.WebApi.Controllers
     {
         private readonly IServiceBus<Classe> serviceBus;
 
-        public ClasseController(IServiceBus<Classe> serviceBus, IRedisDataAgent redisDataAgent, IRepository<Classe> repository)
+        public ClasseController(IServiceBus<Classe> serviceBus, IRedisDataAgent redisDataAgent)
         {
             this.serviceBus = serviceBus;
-            this.serviceBus.AddRedisDataAgent(redisDataAgent)
-                           .AddRepository(repository);
+            this.serviceBus.AddRedisDataAgent(redisDataAgent);
         }
 
         // GET: api/values

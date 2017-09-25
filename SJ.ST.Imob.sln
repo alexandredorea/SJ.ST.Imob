@@ -5,19 +5,21 @@ VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D2CDF34A-A814-445B-9D6B-938AB220A602}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.ST.Imob.Core", "SJ.ST.Imob.Core\SJ.ST.Imob.Core.csproj", "{BF91FDBE-2A21-4DFB-8B5D-613CD3555786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJ.ST.Imob.Core", "SJ.ST.Imob.Core\SJ.ST.Imob.Core.csproj", "{BF91FDBE-2A21-4DFB-8B5D-613CD3555786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.ST.Imob.WebApi", "SJ.ST.Imob.WebApi\SJ.ST.Imob.WebApi.csproj", "{B6A32171-C29A-4D7C-BA9D-1F67B58AA68C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJ.ST.Imob.WebApi", "SJ.ST.Imob.WebApi\SJ.ST.Imob.WebApi.csproj", "{B6A32171-C29A-4D7C-BA9D-1F67B58AA68C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.ST.Imob.Consumer", "SJ.ST.Imob.Consumer\SJ.ST.Imob.Consumer.csproj", "{AB6E6677-C3FD-4FA5-B84F-3F58DFBDCCE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJ.ST.Imob.Consumer", "SJ.ST.Imob.Consumer\SJ.ST.Imob.Consumer.csproj", "{AB6E6677-C3FD-4FA5-B84F-3F58DFBDCCE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.ST.Imob.Repository", "SJ.ST.Imob.Repository\SJ.ST.Imob.Repository.csproj", "{ED29954E-C78D-4E6F-9A97-7C59DCE28585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJ.ST.Imob.Repository", "SJ.ST.Imob.Repository\SJ.ST.Imob.Repository.csproj", "{ED29954E-C78D-4E6F-9A97-7C59DCE28585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JS.ST.Imob.RepositoryTest", "JS.ST.Imob.RepositoryTest\JS.ST.Imob.RepositoryTest.csproj", "{F45A26D2-38D5-401C-AE9F-1371335036C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.ST.Imob.RepositoryTest", "JS.ST.Imob.RepositoryTest\JS.ST.Imob.RepositoryTest.csproj", "{F45A26D2-38D5-401C-AE9F-1371335036C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.ST.Imob.Service", "SJ.ST.Imob.Service\SJ.ST.Imob.Service.csproj", "{4FAF0F64-5B6D-4397-8F69-3F616CE3D738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJ.ST.Imob.Service", "SJ.ST.Imob.Service\SJ.ST.Imob.Service.csproj", "{4FAF0F64-5B6D-4397-8F69-3F616CE3D738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{D4082166-6588-4D4F-AAC9-121432418580}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microserviços", "Microserviços", "{F8F4632B-6228-438A-9D2A-29EB94644800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.ST.Imob.SetorConsumer", "SJ.ST.Imob.SetorConsumer\SJ.ST.Imob.SetorConsumer.csproj", "{B912CCD6-C230-45E6-8916-3D5D63372CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,13 +55,17 @@ Global
 		{4FAF0F64-5B6D-4397-8F69-3F616CE3D738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FAF0F64-5B6D-4397-8F69-3F616CE3D738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FAF0F64-5B6D-4397-8F69-3F616CE3D738}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4082166-6588-4D4F-AAC9-121432418580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4082166-6588-4D4F-AAC9-121432418580}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4082166-6588-4D4F-AAC9-121432418580}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4082166-6588-4D4F-AAC9-121432418580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B912CCD6-C230-45E6-8916-3D5D63372CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B912CCD6-C230-45E6-8916-3D5D63372CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B912CCD6-C230-45E6-8916-3D5D63372CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B912CCD6-C230-45E6-8916-3D5D63372CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB6E6677-C3FD-4FA5-B84F-3F58DFBDCCE7} = {F8F4632B-6228-438A-9D2A-29EB94644800}
+		{B912CCD6-C230-45E6-8916-3D5D63372CCD} = {F8F4632B-6228-438A-9D2A-29EB94644800}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33BE9691-9168-403B-AAE4-21DE039B8F8E}
