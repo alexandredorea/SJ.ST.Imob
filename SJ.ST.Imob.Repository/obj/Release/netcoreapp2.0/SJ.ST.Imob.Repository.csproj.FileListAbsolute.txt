@@ -1,0 +1,10 @@
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Release\netcoreapp2.0\SJ.ST.Imob.Repository.deps.json
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Release\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Release\netcoreapp2.0\SJ.ST.Imob.Repository.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Release\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\bin\Release\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Release\netcoreapp2.0\SJ.ST.Imob.Repository.csproj.CoreCompileInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Release\netcoreapp2.0\SJ.ST.Imob.Repository.AssemblyInfoInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Release\netcoreapp2.0\SJ.ST.Imob.Repository.AssemblyInfo.cs
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Release\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Repository\obj\Release\netcoreapp2.0\SJ.ST.Imob.Repository.pdb

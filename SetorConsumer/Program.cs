@@ -31,6 +31,10 @@ namespace SetorConsumer
                 Consumer.Insert<Setor>(repository);
                 Consumer.Update<Setor>(repository);
                 Consumer.Delete<Setor>(repository);
+            }).ContinueWith(x => {
+
+                if(!x.IsCompleted)
+                    throw new Exception("Serviço finalizado");
             });
 
             Console.WriteLine("Setor Hello World!");

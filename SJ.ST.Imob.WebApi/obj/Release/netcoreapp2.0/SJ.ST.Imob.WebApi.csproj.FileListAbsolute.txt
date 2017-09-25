@@ -1,0 +1,16 @@
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.deps.json
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.runtimeconfig.json
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.runtimeconfig.dev.json
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.Service.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.Repository.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\bin\Release\netcoreapp2.0\SJ.ST.Imob.Service.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.csproj.CoreCompileInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.AssemblyInfoInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.AssemblyInfo.cs
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.WebApi\obj\Release\netcoreapp2.0\SJ.ST.Imob.WebApi.pdb

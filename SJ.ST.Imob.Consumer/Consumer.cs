@@ -50,11 +50,10 @@ namespace SJ.ST.Imob.Consumer
         {
             using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
             {
-                bus.RespondAsync<string, T>(x =>
-                Task.Factory.StartNew(() =>
+                bus.Respond<string, T>(x =>
                 {
                     return repository.Get(x);
-                }), x =>
+                }, x =>
                 {
                     x.WithQueueName("Get-" + typeof(T).Name);
                 });
@@ -65,11 +64,10 @@ namespace SJ.ST.Imob.Consumer
         {
             using (IBus bus = RabbitHutch.CreateBus(RABBIT_HOST))
             {
-                bus.RespondAsync<string, List<T>>(x =>
-                Task.Factory.StartNew(() =>
+                bus.Respond<string, List<T>>(x =>
                 {
                     return repository.FindAll().ToList<T>();
-                }), x =>
+                }, x =>
                 {
                     x.WithQueueName("GetList-" + typeof(T).Name);
                 });

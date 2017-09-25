@@ -11,3 +11,15 @@ C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.pdb
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.dll
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.deps.json
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Repository.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.csproj.CoreCompileInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.AssemblyInfoInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.AssemblyInfo.cs
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Consumer\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Consumer.pdb

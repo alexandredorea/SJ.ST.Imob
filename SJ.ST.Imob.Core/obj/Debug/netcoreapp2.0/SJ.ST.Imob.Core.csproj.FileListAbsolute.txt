@@ -6,3 +6,11 @@ C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.AssemblyInfo.cs
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
 C:\Projetos\Estudos\Stone\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.deps.json
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\bin\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.csproj.CoreCompileInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.AssemblyInfoInputs.cache
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.AssemblyInfo.cs
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.dll
+C:\Projeto\ImobGit\SJ.ST.Imob\SJ.ST.Imob.Core\obj\Debug\netcoreapp2.0\SJ.ST.Imob.Core.pdb
